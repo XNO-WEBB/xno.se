@@ -10,5 +10,6 @@ RewriteCond %{REQUEST_URI} !.*\.jpg$ [NC]
 RewriteCond %{REQUEST_URI} !.*\.css$ [NC]
 RewriteCond %{REQUEST_URI} !.*\.gif$ [NC]
 RewriteCond %{REQUEST_URI} !.*\.js$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.mp4$ [NC]
 RewriteCond %{REQUEST_URI} !.*_ajax\.php$ [NC]
 RewriteRule .* index.php

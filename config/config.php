@@ -6,9 +6,9 @@
  *---------------------------------------------------------------
  */
 
-$globalPage['info']['applicationName']	= 'Starter Template';
+$globalPage['info']['applicationName']	= 'XNO.SE - Webpage';
 
-$globalPage['info']['title'] 			= 'Example.com | ';
+$globalPage['info']['title'] 			= 'XNO.SE | ';
 $globalPage['info']['tags']				= 'Example, tags, for, project, ';
 $globalPage['info']['desc']				= 'Example description. ';
 $globalPage['info']['author']			= 'Example examplesson';
