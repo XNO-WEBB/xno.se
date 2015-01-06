@@ -3,20 +3,16 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 
 body {
-	//background-image: url('../img/background_xno.png');
+	background-image: url('../img/background_xno.png');
 	font-family: 'Open Sans';
 }
 
-.video-container {
-	width: 100%;
-	height: 100%;
+#background-video {
 	overflow: hidden;
-	position: absolute;
-	.background-video {
-		overflow: hidden;
-		position: absolute;
-
-	}
+	position: fixed;
+	min-height: 100%;
+	min-width: 100%;
+	overflow: hidden;
 }
 
 .menu-button {
@@ -66,11 +62,15 @@ body {
 }
 
 .logo {
-	position: fixed;
+	position: absolute;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	max-width: 100%;
+	margin: 0 auto;
+	transform: translate(-0%, -50%);
+	width: 100%;
+	text-align: center;
+	> img {
+		max-width: 100%;
+	}
 }
 
 .xno-modal-window {
@@ -78,20 +78,20 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	overflow-x: hidden;
 	visibility: hidden;
-	overflow: hidden;
 	opacity: 0;
-	transition: all 0.3s ease-out;
-	
+	transition: all 0.3s ease-out, height 10s ease-out;
+	height: 0px;
 
 	&.visible {
+		height: 100%;
 		visibility: visible;
 		opacity: 1;
-		transition: opacity 0.3s ease-in;
+		transition: opacity 0.3s ease-out;
 		.xno-modal-content {
 			transform: scale(1,1);
-			transition: transform 0.3s ease-in;
+			transition: transform 0.3s ease-out;
 		}
 	}
 	.xno-modal-quit {
@@ -104,8 +104,7 @@ body {
 	.xno-modal-content {
 		transform: scale(0.9,0.9);;
 		color: #fff;
-		height: 100px;
-		position: relative;
+		
 		z-index: 100;
 		max-width: 1200px;
 		margin: 0 auto;

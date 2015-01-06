@@ -9,10 +9,10 @@
 </head>
 <body>
 
-<div class="video-container">
-	<video class="background-video" src="<?php print baseurl("assets/movie/xno_moveing_background.mp4") ?>" autoplay loop >
-	</video>
-</div>
+<video id="background-video" loop autobuffer autoplay >
+	<source src="<?php print baseurl("assets/movie/xno_moving_background-webm.webm") ?>" type="video/webm">
+	<source src="<?php print baseurl("assets/movie/xno_moveing_background.mp4") ?>" type="video/mp4">
+</video>
 
 <div class="wrapper">
 	<a class="menu-button" href="javascript:open_modal();">
@@ -22,7 +22,9 @@
 	</a>
 </div>
 
-<img src="<?php print baseurl("assets/img/xno-logo.png"); ?>" class="logo">
+<div class="logo">
+	<img src="<?php print baseurl("assets/img/xno-logo.png"); ?>">
+</div>
 
 
 <div class="xno-modal-window">
