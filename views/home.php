@@ -46,7 +46,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="item">
-								Xno.li
+								xno.li
 								<div class="pull-right">
 									<a href="http://xno.li"><img class="rel-icon" src="<?php print baseurl("assets/img/earth23.png"); ?>"></a>
 								</div>
@@ -56,9 +56,19 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="item">
+								st.xno.li
+								<div class="pull-right">
+									<a href="#ComeingSoon"><img class="rel-icon" src="<?php print baseurl("assets/img/earth23.png"); ?>"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="item">
 								Botwars
 								<div class="pull-right">
-									<a href="#ComingSoon"><img class="rel-icon" src="<?php print baseurl("assets/img/earth23.png"); ?>"></a>
+									<a href="#ComeingSoon"><img class="rel-icon" src="<?php print baseurl("assets/img/earth23.png"); ?>"></a>
 								</div>
 							</div>
 						</div>
@@ -67,7 +77,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="space-out">
-					<h2>INLUENS </h2>
+					<h2>INFLUENCE</h2>
 					<hr>
 					<div class="row">
 						<div class="col-md-12">
@@ -97,7 +107,7 @@
 				<div class="space-out">
 					<h3 class="text-center">Contact</h3>
 					<hr>
-					<h4 class="text-center">xno@xno.se</h4>
+					<h4 class="text-center">contact@xno.se</h4>
 				</div>
 			</div>
 		</div>

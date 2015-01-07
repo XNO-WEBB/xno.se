@@ -47,6 +47,6 @@ $config['server']['status']		= 'localhost';
 $config['mysqli']['address'] 	= 'localhost';
 $config['mysqli']['username']	= 'root';
 $config['mysqli']['password']	= 'root';
-$config['mysqli']['database']	= 'startbox';
+$config['mysqli']['database']	= '';
 
 endif;

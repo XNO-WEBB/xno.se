@@ -41,7 +41,7 @@
  *---------------------------------------------------------------
  */
 	// Database handleing
-	$db 		= new db( $config );
+	//$db 		= new db( $config );
 
 	// Get URL_DATA array
 	$url_data = str_replace_limit( baseurl() , "", $_SERVER['REQUEST_URI'], 1);
