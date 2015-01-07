@@ -58,17 +58,7 @@
 							<div class="item">
 								st.xno.li
 								<div class="pull-right">
-									<a href="#ComeingSoon"><img class="rel-icon" src="<?php print baseurl("assets/img/earth23.png"); ?>"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="item">
-								Botwars
-								<div class="pull-right">
-									<a href="#ComeingSoon"><img class="rel-icon" src="<?php print baseurl("assets/img/earth23.png"); ?>"></a>
+									<a href="#Coming Soon" target="_blank"><img class="rel-icon" src="<?php print baseurl("assets/img/earth23.png"); ?>"></a>
 								</div>
 							</div>
 						</div>
@@ -77,24 +67,14 @@
 			</div>
 			<div class="col-md-6">
 				<div class="space-out">
-					<h2>INFLUENCE</h2>
+					<h2>PARTNERS</h2>
 					<hr>
 					<div class="row">
 						<div class="col-md-12">
 							<div class="item">
 								Startbox.se
 								<div class="pull-right">
-									<a href="http://startbox.se"><img class="rel-icon" src="<?php print baseurl("assets/img/earth23.png"); ?>"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="item">
-								RestaurangOnline
-								<div class="pull-right">
-									<a href="http://RestaurangOnline.se"><img class="rel-icon" src="<?php print baseurl("assets/img/earth23.png"); ?>"></a>
+									<a href="http://startbox.se" target="_blank"><img class="rel-icon" src="<?php print baseurl("assets/img/earth23.png"); ?>"></a>
 								</div>
 							</div>
 						</div>
